@@ -30,3 +30,17 @@ color:var(--text-color);}
     color:var(--text-color);
     font-size: 1rem;
 }
+@media only screen and (max-width: 992px) {
+    .footer .logo img{
+        width: 70%;
+    }
+    .footer{
+        text-align: center;
+    }
+    .social__links{
+        justify-content: center;
+    }
+  
+  
+
+}
