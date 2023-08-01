@@ -11,7 +11,7 @@ const SearchBar = () => {
     const location = locationRef.current.value;
 
     if (location === "") {
-      return alert("Please fill all the fields");
+      return alert("Please fill the search field");
     }
 
     const res = await fetch(
