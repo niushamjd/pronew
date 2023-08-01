@@ -3,9 +3,7 @@
     "title": "Westminister Bridge",
     "city": "London",
     "address": "Somewhere in London",
-    "distance": 300,
     "price": 99,
-    "maxGroupSize": 10,
     "desc": "this is the description",
     "reviews": [],
 
@@ -16,9 +14,7 @@
     "title": "Bali, Indonesia",
     "city": "Bali",
     "address": "Somewhere in Indonesia",
-    "distance": 400,
     "price": 99,
-    "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
@@ -29,9 +25,7 @@
     "title": "Snowy Mountains, Thailand",
     "city": "Bangkok",
     "address": "Somewhere in Thailand",
-    "distance": 500,
     "price": 99,
-    "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
@@ -42,9 +36,7 @@
     "title": "Beautiful Sunrise, Thailand",
     "city": "Phuket",
     "address": "Somewhere in Thailand",
-    "distance": 500,
     "price": 99,
-    "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
@@ -55,9 +47,7 @@
     "title": "Nusa Pendia Bali, Indonesia",
     "city": "Bali",
     "address": "Somewhere in Indonesia",
-    "distance": 500,
     "price": 99,
-    "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
@@ -68,9 +58,7 @@
     "title": "Cherry Blossoms Spring",
     "city": "Tokyo",
     "address": "Somewhere in Japan",
-    "distance": 500,
     "price": 99,
-    "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
@@ -81,9 +69,7 @@
     "title": "Holmen Lofoten, France",
     "city": "Paris",
     "address": "Somewhere in France",
-    "distance": 500,
     "price": 99,
-    "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
@@ -94,9 +80,7 @@
     "title": " Beatiful Snowy Mountains",
     "city": "Bangkok",
     "address": "Somewhere in Thailand",
-    "distance": 500,
     "price": 99,
-    "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
@@ -107,9 +91,7 @@
     "title": "Jaflong, Sylhet",
     "city": "Sylhet",
     "address": "Somewhere in Sylhet",
-    "distance": 100,
     "price": 99,
-    "maxGroupSize": 5,
     "desc": "this is the description",
     "reviews": [],
 
@@ -120,9 +102,7 @@
     "title": "Cox's Bazar Sea Beach",
     "city": "Chittagong",
     "address": "Somewhere in Chittagong",
-    "distance": 500,
     "price": 99,
-    "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
 
