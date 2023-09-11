@@ -23,9 +23,9 @@ const TourDetails = () => {
     title,
     desc,
     price,
-    address,
+    duration,
     reviews,
-    city
+    location
   } = tour;
 
   const { totalRating, avgRating } = calculateAvgRating(reviews);
@@ -97,12 +97,12 @@ const TourDetails = () => {
                       </span>
 
                       <span>
-                        <i class="ri-map-pin-user-fill"></i> {address}
+                        <i class="ri-map-pin-user-fill"></i> {duration}
                       </span>
                     </div>
                     <div className="tour__extra-details">
                       <span>
-                        <i class="ri-map-pin-2-line"></i> {city}
+                        <i class="ri-map-pin-2-line"></i> {location}
                       </span>
                       <span>
                         <i class="ri-money-euro-circle-line"></i> {price} /per

@@ -1,5 +1,5 @@
 .hero__subtitle img{
-    width:2.3rem;
+    width:2.5rem;
     height:2.3rem;
 }
 .hero__content h1{
@@ -81,7 +81,7 @@
     color: var(--text-color);
 }
 .experience__img{
-    width: 90px;
+    width: 30px;
 }
 
 .gallery__title{

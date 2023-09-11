@@ -6,7 +6,6 @@ import heroImg02 from "../assets/images/hero-img02.jpg";
 import heroVideo from "../assets/images/hero-video.mp4";
 import Subtitle from "./../shared/Subtitle";
 import worldImg from "../assets/images/world.png";
-import experienceImg from "../assets/images/experience.png";
 
 import SearchBar from "../shared/SearchBar";
 import ServiceList from "../services/ServiceList";
@@ -24,19 +23,16 @@ const Home = () => {
             <Col lg="6">
               <div className="hero__content">
                 <div className="hero__subtitle d-flex align-items-center">
-                  <Subtitle subtitle={"Know Before You Know"} />
+                  <Subtitle subtitle={"Antalya's Shores, Turkey's Marvels"} />
                   <img src={worldImg} alt=""></img>
                 </div>
                 <h1>
                   {" "}
-                  Traveling opens the door to creating
-                  <span className="highlight">memories</span>{" "}
+                  Discover Turkey's Hidden Gems with 
+                  <span className="highlight"> ProSmart Travel </span>{" "}
                 </h1>
                 <p>
-                  Our travel agency specializes in creating bespoke itineraries
-                  that take travelers beyond the typical tourist path. We
-                  believe in meaningful travel experiences that create lifelong
-                  memories.
+                Welcome to ProSmart Travel, Unveiling Turkey's treasures exclusively for perceptive travelers. Discover captivating history, unique cuisine, and mesmerizing landscapes with ProSmart Travel. Journey smart, embrace connoisseurship. Your Alanya adventure begins here.
                 </p>
               </div>
             </Col>
@@ -95,7 +91,7 @@ const Home = () => {
                   we will serve you
                 </h2>
                 <p>
-                  We are a team of travel enthusiasts always ready to help you
+                  We are a team of professionals always ready to help you
                   <br />
                   with your travel needs. We believe in creating memorable
                   travel.
@@ -103,22 +99,17 @@ const Home = () => {
               </div>
               <div className="counter__wrapper d-flex align-items-center gap-5">
                 <div className="counter__box">
-                  <span>12k+</span>
-                  <h6>Successfull Trip</h6>
+                  <span>1k+</span>
+                  <h6>Successfull Transfers</h6>
                 </div>
                 <div className="counter__box">
-                  <span>2k+</span>
+                  <span>500+</span>
                   <h6>Regular clients</h6>
                 </div>
                 <div className="counter__box">
                   <span>30</span>
                   <h6>Years experience</h6>
                 </div>
-              </div>
-            </Col>
-            <Col lg="6">
-              <div className="experience__img">
-                <img src={experienceImg} alt="" />
               </div>
             </Col>
           </Row>
