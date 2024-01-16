@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CommonSection from "../shared/CommonSection";
 import "../styles/tour.css";
-import SearchBar from "./../shared/SearchBar";
+//import SearchBar from "./../shared/SearchBar";
 import Newsletter from "./../shared/Newsletter";
 import TourCard from "./../shared/TourCard";
 import { Container, Row, Col } from "reactstrap";
@@ -30,7 +30,7 @@ const Tours = () => {
       <section className="tours__section">
         <Container>
           <Row>
-            <SearchBar />
+      
           </Row>
         </Container>
       </section>

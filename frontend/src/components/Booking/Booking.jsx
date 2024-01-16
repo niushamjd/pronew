@@ -12,8 +12,8 @@ const Booking = ({ tour, avgRating }) => {
   const { user } = useContext(AuthContext);
 
   const [booking, setBooking] = useState({
-userId: user && user._id,
-userEmail: user && user.email,
+userId: user ? user._id : null,
+userEmail: user ? user.email : "",
 tourName: title,
 fullName: "",
 phone: "",
@@ -30,9 +30,6 @@ bookAt:""
     e.preventDefault();
     console.log(booking);
     try {
-        if(!user||user===undefined|| user===null){
-            return alert("Please sign in");
-        }
         const res=await fetch(`${BASE_URL}/booking`,{
             method:"post",
             headers:{"content-type":"application/json"},
@@ -77,6 +74,19 @@ bookAt:""
               onChange={handleChange}
             />
           </FormGroup>
+
+          { !user && (
+            <FormGroup>
+            <input
+                type="email"
+                id="userEmail" 
+                placeholder="Enter your email"
+                value={booking.userEmail}  
+                onChange={handleChange}
+                required
+              />
+            </FormGroup>
+          )}
           <FormGroup>
             <input
               type="text"

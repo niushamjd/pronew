@@ -4,7 +4,7 @@ import { createBooking, getAllBooking, getBooking } from '../controllers/booking
 
 const router = express.Router();
 
-router.post("/",verifyUser, createBooking)
+router.post("/", createBooking);  // Removed verifyUser middleware
 router.get("/:id",verifyUser, getBooking)
 router.get("/",verifyAdmin, getAllBooking)
 

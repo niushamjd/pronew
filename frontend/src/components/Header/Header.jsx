@@ -15,6 +15,10 @@ const nav__links = [
     display: "About",
   },
   {
+    path: "/transfers",
+    display: "Transfers",
+  },
+  {
     path: "/tours",
     display: "Tours",
   },
