@@ -1,10 +1,10 @@
 import { SESClient } from '@aws-sdk/client-ses';
 
 const sesClient = new SESClient({
-   region: 'eu-north-1',
+   region: process.env.AWS_REGION,
    credentials: {
-      accessKeyId: "AKIAZL6AEHK5U5DHHOMV"   , 
-   secretAccessKey: "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", 
+      accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
    },
  });
  

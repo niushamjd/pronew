@@ -11,6 +11,7 @@ import authRoute from "./routes/auth.js";
 import reviewRoute from "./routes/reviews.js";
 import bookingRoute from "./routes/bookings.js";
 import transferBookingRoute from "./routes/transferBookings.js"; // The route file for transfer bookings
+require('dotenv').config();
 
 dotenv.config();
 const app = express();
