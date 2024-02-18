@@ -1,11 +1,11 @@
 import TransferBooking from '../models/TransferBooking.js' // Assuming you have a separate model for Transfer Bookings
 import aws from 'aws-sdk';
-
-const SES_CONFIG ={
-    accessKeyId: "AKIAZL6AEHK5S4XCA644"   , 
-    secretAccessKey: "9AAPeIYqUcUDWd3MoC+87yCwGBvP8j/dLSfprs5A", 
-    region: 'eu-north-1'  // AWS region for your SES (EU Stockholm)
+const SES_CONFIG = {
+    accessKeyId:" AKIAZL6AEHK5TKCA2BDI", // Ensure you have these values in your environment variables
+    secretAccessKey: "6avasF3NN7IbCfFmirRjXu1N8ZWNyHFvW5OkC13K",
+    region: 'us-east-1', // Replace with your AWS SES region
   };
+
   
   const AWS_SES=new aws.SES(SES_CONFIG);
   
